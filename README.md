@@ -37,6 +37,10 @@ license then VirtServer won't be able to start.
 **Example:**
 `host.minikube.internal:1443`
 
+For SLM type licenses, generate the access key and updated it in the values.yaml as a new parameter.
+**Example:**
+SlmAccessKey: 12997XX-xxx4-xx1f-axxa-0xxxx31xxxfx
+
 **Note:** This example works for when the ProtectionLS license server is running at the same host as a minikube cluster.
 Other environments will need a different domain or IP and port. Also note that ProtectionLS in this particular configuration
 is not running on its default port but rather 1443.
@@ -72,3 +76,4 @@ Need to be the full image name including repository.
 
 **Example:**
 `smartbear/ready-api-virtserver:3.12.1`
+
